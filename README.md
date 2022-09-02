@@ -1,5 +1,5 @@
 # Java-Console-Program-connection-to-MySQL-Database
-a Java console program that select, inserts, and updates staff information stored in a MySQL database.
+A Java console program that select, inserts, and updates staff information stored in a MySQL database.
 Java console program that views, inserts, and updates staff information stored in a MySQL database, as shown in the following figure. 
 
 create table Staff (
