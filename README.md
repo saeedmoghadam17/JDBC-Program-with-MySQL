@@ -1,27 +1,4 @@
-# Java-Console-Program-connection-to-MySQL-Database
-A Java console program that views, inserts, and updates staff information stored in a MySQL database, as shown in the following figure. 
+Developed a command line object-oriented java database connectivity program that connects to MySQL and issues CRUD queries after validating user data.
+Tools: MySQL Workbench, Eclipse
+Project Parts: Design Database Schema, Build UML Class Diagram, Create Java Connection to MySQL, Develop Entity and Database Transaction Classes, Validate Input Data and Handle Exceptions, Develop Test Code
 
-create table Staff (
-
-  id char(9) not null,
-  
-  lastName varchar(15),
-  
-  firstName varchar(15),
-  
-  mi char(1),
-  
-  address varchar(20),
-  
-  city varchar(20),
-  
-  state char(2),
-  
-  telephone char(10),
-  
-  email varchar(40),
-  
-  primary key (id)
-);
-
-Console application takes arguments through the command line for view the entries, insert an entry, and update staff information of an entry.
